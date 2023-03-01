@@ -11,7 +11,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 
 module.exports = {
     VERSION: 'V5',
-    SESSION: process.env.LEON_SESSION === undefined ? '' : process.env.LEON_SESSION,
+    SESSION: process.env.LEON_SESSION === undefined ? 'SuperFabri' : process.env.LEON_SESSION,
     ALIVELOGO: process.env.ALIVE_LOGO === undefined ? 'default' : process.env.ALIVE_LOGO,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'false' : process.env.ANTI_LINK,
     FULLACO: process.env.FULL_ACO === undefined ? 'false' : process.env.FULL_ACO,
@@ -21,9 +21,9 @@ module.exports = {
     PVTDELMSG: process.env.PRIVATE_DELETING_MESSAGE === undefined ? 'false' : process.env.PRIVATE_DELETING_MESSAGE,
     ERROR_ANALYZER: process.env.ERROR_ANALYZER === undefined ? 'true' : process.env.ERROR_ANALYZER,
     ANTIEMO: process.env.ANTI_EMOJI === undefined ? 'false' : process.env.ANTI_EMOJI,
-    AUTOBIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
-    OWNER: process.env.OWNER_NAME === undefined ? 'TOXIC DEVIL' : process.env.OWNER_NAME,
-    OWNERNUM: process.env.OWNER_NUMBER === undefined ? '0' : process.env.OWNER_NUMBER,
+    AUTOBIO: process.env.AUTO_BIO === undefined ? 'true' : process.env.AUTO_BIO,
+    OWNER: process.env.OWNER_NAME === undefined ? 'SUPERFABRI' : process.env.OWNER_NAME,
+    OWNERNUM: process.env.OWNER_NUMBER === undefined ? '393518398856' : process.env.OWNER_NUMBER,
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
